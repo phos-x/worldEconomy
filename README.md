@@ -2,7 +2,7 @@
 
 This repository contains a Python-based project for analyzing world trade data. It includes modules for loading, cleaning, and visualizing datasets related to trade, inflation, and other economic indicators.
 
-## This Code Has Not Been Tested. Currently Fascinated with Other Projects.
+## This Code Has Not Been Tested😱. Currently Fascinated with Other Projects.😁
 
 ## Features
 
