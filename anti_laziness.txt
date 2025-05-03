@@ -1,0 +1,11 @@
+If you follow this repo, you will observe it's in still birth
+
+greatness takes time...lol
+
+tasks to do :
+
+- generate input yaml. to contain input links and files
+- refine exception module. looking towards a tool module with threads, exceptions and so on.
+- refine data loading method. looking towards downloading links added to a folder and loading specified files from the folder 
+- more visualisations. 
+- basically a bunch of other stuffs
