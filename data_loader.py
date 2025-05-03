@@ -1,3 +1,6 @@
+def handle_exception(action_description, exception):
+    print(f"Error during {action_description}: {exception}")
+
 class DataLoader:
     def __init__(self):
         self.datasets = {}
@@ -10,9 +13,6 @@ class DataLoader:
         })
 
     def safe_load(self, file_path, sheet_name):
-        try:
-            return self.load_excel(file_path, sheet_name)
-        except Exception as e:
-            print(f"Error loading {sheet_name} from {file_path}: {e}")
-            return None
+      return exception_catcher(self.load_excel, file_path, sheet_name)
+
 

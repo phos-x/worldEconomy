@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 class DataVisualizer:
     def visualize_country_analysis(self, data):
-        # Replace with actual visualization logic for single country analysis
         country = input("Enter the country name or number for analysis: ")
         country_data = data[data['Country'] == country]
         if country_data.empty:
@@ -16,7 +15,6 @@ class DataVisualizer:
         plt.show()
 
     def visualize_country_comparison(self, data):
-        # Replace with actual visualization logic for country comparison
         countries = input("Enter the countries for comparison (comma-separated): ").split(',')
         comparison_data = data[data['Country'].isin(countries)]
         if comparison_data.empty:
