@@ -1,6 +1,6 @@
-# World Trade Data Analysis
+# World Economy Data Analysis
 
-This repository contains a Python-based project for analyzing world trade data. It includes modules for loading, cleaning, and visualizing datasets related to trade, inflation, and other economic indicators.
+This repository contains a Python-based project for analyzing world economy data. It includes modules for loading, cleaning, and visualizing datasets related to trade, inflation, and other economic indicators.
 
 ## This Code Has Not Been Tested😱. Currently Fascinated with Other Projects.😁
 
@@ -13,7 +13,7 @@ This repository contains a Python-based project for analyzing world trade data. 
 
 ## Project Structure
 
-worldTrade/ │ 
+worldEconomy/ │ 
 ├── main.py # Main script to run the project 
 ├── data_loader.py # Module for loading datasets 
 ├── data_cleaner.py # Module for cleaning datasets 
